@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Red Folder</title>
+  <meta name="description" content="The Red Folder — a clean, broadsheet-style layout." />
+  <link rel="icon" type="image/png" href="redfolderfavicon.png">
+
+  <!-- Gentium stack -->
+  <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:wght@400;700&family=Gentium+Plus:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Site CSS -->
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <!-- Masthead -->
+  <header class="masthead">
+    <div class="wrap inner">
+      <div class="brand">
+        <div class="kicker">EQUALITY IN FORENSICS</div>
+        <div class="name">The&nbsp;Red&nbsp;Folder</div>
+      </div>
+      <div class="actions"></div>
+    </div>
+  </header>
+
+  <!-- Section Navigation with expanding search -->
+  <nav class="sections sticky">
+    <div class="wrap inner">
+      <a href="#">Weekly Briefs</a>
+      <a href="#">Breaking News</a>
+      <a href="#">Special Reports</a>
+      <div class="menu">
+        <a href="#" aria-haspopup="true" aria-expanded="false">About Us</a>
+        <div class="dropdown" role="menu" aria-label="About Us">
+          <a href="/about/staff.html" role="menuitem">Meet Our Staff</a>
+          <a href="/about/editorial-policy.html" role="menuitem">Editorial Policy</a>
+        </div>
+      </div>
+
+      <!-- Icon-only expanding search -->
+      <form class="search" role="search" aria-label="Site search" onsubmit="event.preventDefault(); window.SiteSearch.run();">
+        <svg class="icon" id="search-toggle" viewBox="0 0 24 24" aria-label="Open search" role="button" tabindex="0">
+          <path fill="currentColor" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5Zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14Z"/>
+        </svg>
+        <label for="q" class="sr-only">Search articles</label>
+        <input id="q" name="q" type="search" placeholder="Search articles…" autocomplete="off" />
+        <button class="submit sr-only" type="submit">Search</button>
+        <div class="search-status" aria-live="polite" id="search-status"></div>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="page wrap" id="content">
+    <div class="grid">
+      <article class="lead" data-search>
+        <header>
+          <div class="section-label">Top Story</div>
+          <h1>Jimmy Kimmel, Charlie Kirk, and the Debate Over Free Speech in America</h1>
+          <p class="deck">Charlie Kirk's murder has exacerbated tensions between the left and the right. Conservatives are calling for those they perceive as dishonoring Kirk to be cancelled or fired, and Jimmy Kimmel was caught in the crossfire.</p>
+          <div class="meta">
+            <span class="byline">By Brogan Jones</span> · <time datetime="2025-09-23">Sept. 23, 2025</time>
+          </div>
+        </header>
+        <figure class="figure hero">
+          <img src="https://redfolder.neocities.org/images/download.jpeg" alt="Top story image">
+        </figure>
+        <div class="article-body">
+          <p class="dropcap">There are very few people in the United States who have not heard about the death of Charlie Kirk, a right-wing activist and media personality who was assassinated at Utah Valley University earlier this month during an event for Turning Point USA, the nonprofit organization he founded in 2012. You’d be equally hard-pressed to find someone who did not have an opinion on Kirk’s passing, with the mixed reaction to the influencer’s death arguably receiving even more attention than the actual assassination itself.</p>
+        </div>
+      </article>
+
+      <aside class="sidebar">
+        <button class="cta-subscribe">Subscribe</button>
+
+        <section data-search>
+          <h3>Breaking News</h3>
+          <div class="side-list">
+            <article class="side-card">
+              <a class="title" href="#">The Case for Local Newsrooms</a>
+              <a class="thumb" href="#">
+                <img alt="" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='192' height='144'><rect width='100%' height='100%' fill='%23f0f0f0'/></svg>">
+              </a>
+            </article>
+            <article class="side-card">
+              <a class="title" href="#">Why Cities Need Night Trains</a>
+              <a class="thumb" href="#">
+                <img alt="" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='192' height='144'><rect width='100%' height='100%' fill='%23f0f0f0'/></svg>">
+              </a>
+            </article>
+            <article class="side-card">
+              <a class="title" href="#">AI’s Boring Future (That’s Good)</a>
+              <a class="thumb" href="#">
+                <img alt="" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='192' height='144'><rect width='100%' height='100%' fill='%23f0f0f0'/></svg>">
+              </a>
+            </article>
+          </div>
+        </section>
+
+        <section data-search>
+          <h3>Most Popular</h3>
+          <div class="side-list">
+            <article class="side-card">
+              <a class="title" href="#">A Small Town Reinvents Its Main Street</a>
+              <a class="thumb" href="#">
+                <img alt="" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='192' height='144'><rect width='100%' height='100%' fill='%23f0f0f0'/></svg>">
+              </a>
+            </article>
+            <article class="side-card">
+              <a class="title" href="#">How to Read a Budget Like a Pro</a>
+              <a class="thumb" href="#">
+                <img alt="" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='192' height='144'><rect width='100%' height='100%' fill='%23f0f0f0'/></svg>">
+              </a>
+            </article>
+            <article class="side-card">
+              <a class="title" href="#">The Weather Maps Are Lying to You</a>
+              <a class="thumb" href="#">
+                <img alt="" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='192' height='144'><rect width='100%' height='100%' fill='%23f0f0f0'/></svg>">
+              </a>
+            </article>
+            <article class="side-card">
+              <a class="title" href="#">Five Charts That Explain Grocery Prices</a>
+              <a class="thumb" href="#">
+                <img alt="" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='192' height='144'><rect width='100%' height='100%' fill='%23f0f0f0'/></svg>">
+              </a>
+            </article>
+          </div>
+        </section>
+      </aside>
+    </div>
+
+    <hr class="rule" />
+    <h2>Latest Weekly Brief</h2>
+    <h3>September 16, 2025 Release</h3>
+    <section aria-label="More stories" class="cards" id="cards">
+      <article class="card" data-search>
+        <div class="eyebrow">U.S. Politics</div>
+        <h4><a href="#">Trump’s National Guard Deployments</a></h4>
+        <p>The second Trump administration has proven itself to be no stranger to unconventional and controversial uses of presidential power.</p>
+      </article>
+      <article class="card" data-search>
+        <div class="eyebrow">Supreme Court</div>
+        <h4><a href="#">Supreme Court Takes Up Tariff Battle</a></h4>
+        <p>The impact of recent trade tariffs is becoming increasingly visible to American consumers with August inflation rising 2.9%.</p>
+      </article>
+      <article class="card" data-search>
+        <div class="eyebrow">Immigration</div>
+        <h4><a href="#">The Hyundai-LG Manufacturing Plant Immigration Raid</a></h4>
+        <p>On September 4, an immigration raid conducted by US Immigration and Customs Enforcement (ICE) swept up nearly 500 workers.</p>
+      </article>
+      <article class="card" data-search>
+        <div class="eyebrow">Economy</div>
+        <h4><a href="#">Federal Reserve Cuts Rates for First Time This Year</a></h4>
+        <p>The Federal Reserve took a step that will shape the trajectory of the U.S. economy: it lowered its benchmark interest rate by a quarter percentage point.</p>
+      </article>
+      <article class="card" data-search>
+        <div class="eyebrow">Japan</div>
+        <h4><a href="#">Revolving Door of Prime Ministers</a></h4>
+        <p>In Japan, the average tenure for a prime minister is two years. The resignation of Prime Minister Shigeru Ishiba after a mere eleven months is no shock.</p>
+      </article>
+      <article class="card" data-search>
+        <div class="eyebrow">Russia</div>
+        <h4><a href="#">Russia Sends Drones Into NATO Airspace</a></h4>
+        <p>Russian drones violated Eastern European airspace, including NATO nations. In Poland, there were around 19 violations of Polish airspace on September 10th. </p>
+      </article>
+      <article class="card" data-search>
+        <div class="eyebrow">Israel</div>
+        <h4><a href="#">Israel’s Diplomacy Paralyzed by Budget Crisis</a></h4>
+        <p>Israel’s Foreign Ministry announced that it will freeze nearly all international and public diplomacy activities after being hit with an acute budget shortfall.</p>
+      </article>
+      <article class="card" data-search>
+        <div class="eyebrow">China</div>
+        <h4><a href="#">US-China Trade Tensions</a></h4>
+        <p><br>China launched two probes targeting the U.S. semiconductor sector Saturday ahead of talks between the two nations in Spain this week.</p>
+      </article>
+    </section>
+
+    <hr class="rule" />
+    <h2>Special Reports</h2>
+    <section aria-label="Special Reports" class="cards" id="special-reports">
+      <article class="card" data-search>
+        <div class="eyebrow">Investigation</div>
+        <h4><a href="#">Inside the Statehouse Lobbying Machine</a></h4>
+        <p>An in-depth look at how influence groups shape legislation from draft to vote.</p>
+      </article>
+      <article class="card" data-search>
+        <div class="eyebrow">Education</div>
+        <h4><a href="#">Civics Class in the Culture War Crossfire</a></h4>
+        <p>Curriculum fights are reshaping how schools teach government and rights.</p>
+      </article>
+      <article class="card" data-search>
+        <div class="eyebrow">Elections</div>
+        <h4><a href="#">How Counties Prepare for Recounts</a></h4>
+        <p>Behind the scenes with clerks as they secure ballots and certify results.</p>
+      </article>
+      <article class="card" data-search>
+        <div class="eyebrow">Courts</div>
+        <h4><a href="#">The Quiet Expansion of Specialized Dockets</a></h4>
+        <p>Problem-solving courts are changing outcomes — and due process debates.</p>
+      </article>
+      <article class="card" data-search>
+        <div class="eyebrow">Money & Politics</div>
+        <h4><a href="#">Dark Money’s New Playbook</a></h4>
+        <p>Nonprofits and shell firms are evolving to keep donors in the shadows.</p>
+      </article>
+      <article class="card" data-search>
+        <div class="eyebrow">Transparency</div>
+        <h4><a href="#">FOIA Denied: What Gets Redacted and Why</a></h4>
+        <p>We filed dozens of requests to map the gray areas of public records laws.</p>
+      </article>
+    </section>
+  </main>
+
+  <!-- Date updater + client-side search (with expanding UI) -->
+  <script>
+
+      /* Expanding search like NYT */
+      const form = document.querySelector('form.search');
+      const toggle = document.getElementById('search-toggle');
+      const q = document.getElementById('q');
+      const status = document.getElementById('search-status');
+      const searchables = Array.from(document.querySelectorAll('[data-search]'));
+      const norm = s => (s||'').toLowerCase();
+
+      function openSearch(){ form.classList.add('open'); q.focus(); }
+      function closeSearch(){ form.classList.remove('open'); q.blur(); }
+
+      toggle.addEventListener('click', e=>{
+        e.preventDefault();
+        form.classList.toggle('open');
+        if(form.classList.contains('open')) q.focus();
+      });
+      toggle.addEventListener('keydown', e=>{
+        if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); openSearch(); }
+      });
+      document.addEventListener('keydown', e=>{
+        if(e.key === 'Escape' && form.classList.contains('open')){ closeSearch(); }
+      });
+
+      function matchBlock(block, term){
+        if(!term) return true;
+        const text = block.innerText || '';
+        return norm(text).includes(term);
+      }
+      function run(){
+        const term = norm(q.value.trim());
+        let shown = 0;
+        searchables.forEach(b=>{
+          const hit = matchBlock(b, term);
+          b.classList.toggle('hidden', !hit);
+          if(hit) shown++;
+        });
+        if(status){ status.textContent = term ? (shown + ' result' + (shown===1?'':'s')) : ''; }
+      }
+      if(q){
+        q.addEventListener('input', run);
+        q.addEventListener('keydown', e=>{ if(e.key==='Enter'){ e.preventDefault(); run(); }});
+      }
+      window.SiteSearch = { run };
+    })();
+  </script>
+</body>
+</html>
